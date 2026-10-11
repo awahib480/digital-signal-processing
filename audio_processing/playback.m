@@ -1,3 +1,5 @@
+% Record and examine 'we', 'you' and 'we are you'
+
 [we, f] = audioread('we.m4a');
 sound(we, f);
 we_reverse = flipud(we);
