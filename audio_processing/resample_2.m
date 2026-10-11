@@ -1,4 +1,7 @@
-[x, Fs] = audioread('Lab5_DSP/recordings/sunday.wav');
+% Script to resample the audio signals in "sunday.wav" such that new
+% waveform has a new sample rate of 11025. Plot these two waveforms and their absolute difference by using subplot.
+
+[x, Fs] = audioread('sunday.wav');
 % resample
 y = resample(x, 11025, Fs);
 
