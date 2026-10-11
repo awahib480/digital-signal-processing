@@ -1,5 +1,6 @@
-t = -20:20;
+% Generate a Square wave with amplitude from -5 to 5. Plot the signal which shows the original signal along with its flipped signal.
 
+t = -20:20;
 % Square wave with amplitude from -5 to 5
 x = 5 * square(2*pi*(t/10));
 
