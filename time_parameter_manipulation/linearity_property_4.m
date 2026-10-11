@@ -1,3 +1,5 @@
+% Test for linearity for random signal and system
+
 n = 0:10;
 
 % Random inputs
