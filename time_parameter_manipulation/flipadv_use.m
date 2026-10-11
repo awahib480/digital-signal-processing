@@ -1,3 +1,5 @@
+% Using the flipadv(u,s) function
+
 n = -5:5;
 u = (n >= 0);
 s = 3;
