@@ -1,3 +1,10 @@
+% Record, manipulate and then observe:
+% a. Multiply the audio signals by -1.
+% b. Reverse the audio signals in time axis.
+% c. Multiply the audio signals by 10.
+% d. Replace each sample by its square root.
+% e. Replace each sample by its square.
+
 [bday, f] = audioread('birthday.wav');
 sound(bday, f);
 
