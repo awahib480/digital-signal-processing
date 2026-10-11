@@ -1,3 +1,7 @@
+% Generate a script that uses user input to shift unit step response right or left. Use MATLAB
+% input command to take the number of samples to shift the signal and use switch option or
+% If - else statement to decide whether to shift the signal to the right (delay) or to the left (advance).
+
 n = -5:5;
 x = (n >= 0);
 
