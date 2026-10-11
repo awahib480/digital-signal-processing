@@ -1,3 +1,5 @@
+% Design Time Invariance System by giving random signal and system
+
 n = 0:10;
 n0 = 3;                    % Input shift
 
