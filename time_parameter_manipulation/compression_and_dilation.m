@@ -1,3 +1,5 @@
+% Create a Triangular wave with unit amplitude. Use subplot command to show the effect of compression and dilation.
+
 t = -5:0.01:5;
 x = sawtooth(2*pi*t, 0.5);
 
