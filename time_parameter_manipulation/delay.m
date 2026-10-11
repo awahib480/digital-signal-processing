@@ -1,3 +1,5 @@
+% script that delays the unit impulse by 5 samples.
+
 n = -5:5;
 x = (n == 0);
 
