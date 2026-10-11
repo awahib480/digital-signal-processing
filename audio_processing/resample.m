@@ -1,3 +1,7 @@
+% Script to record your utterance with a sample rate of 32 KHz and 8-bit
+% resolution. Try to resample the audio signals at decreasing sample rates of 16 KHz, 8 KHz, 
+% 4 KHz, 2 KHz, 1 KHz, and so on.
+
 F = 32000;
 record = audiorecorder(F, 8, 1);  % (sampling_freq, bit_res, channel)
 
