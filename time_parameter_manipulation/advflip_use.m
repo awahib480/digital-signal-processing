@@ -1,3 +1,5 @@
+% Using the advflip(u,s) function
+
 n = -5:5;
 u = (n >= 0); % Unit step sequence
 s = 2;        % Advance by 2 samples
