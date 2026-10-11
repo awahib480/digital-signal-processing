@@ -1,5 +1,11 @@
-n = -5:20;
+% Check whether the system and whose parameters are as follows, is Linear or not?
+% a) x1 = Unit Step (Step time = 1 & Final value = 1)
+% b) x2 = Unit Step (Step time = 5 & Final value = 3)
+% c) α1= 7
+% d) α2 = 19
+% e) Sys(H) = X^2(n– 1)
 
+n = -5:20;
 % Inputs
 a1 = 7;  x1 = 1 * (n >= 1); % Step at n=1, value 1
 a2 = 19; x2 = 3 * (n >= 5); % Step at n=5, value 3
