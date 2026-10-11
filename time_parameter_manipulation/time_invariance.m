@@ -1,3 +1,5 @@
+% check for time-invariance and display whether system is LTI or not
+
 n = -10:10;
 n0 = 3;                         % Input shift
 
