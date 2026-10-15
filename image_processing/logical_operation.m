@@ -1,5 +1,8 @@
-A = imread('/MATLAB Drive/Lab6_DSP/images/paint1.jpg');
-B = imread('/MATLAB Drive/Lab6_DSP/images/paint2.jpg');
+% Size: 256x256, Grayscale
+% Perform logical NOR and NAND operations between the two images
+
+A = imread('images/paint1.jpg');
+B = imread('images/paint2.jpg');
 
 A = rgb2gray(A);
 B = rgb2gray(B);
