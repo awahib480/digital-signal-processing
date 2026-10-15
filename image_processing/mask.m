@@ -1,4 +1,6 @@
-I = rgb2gray(imread('/MATLAB Drive/Lab6_DSP/images/rgb1.jpg'));
+% Using image arithmetic, extract a region of interest from a grayscale image by multiplying it with a binary mask.
+
+I = rgb2gray(imread('images/rgb1.jpg'));
 I = imresize(I,[256 256]);
 
 M = zeros(256,256);                 % Binary mask
