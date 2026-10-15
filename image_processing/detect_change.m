@@ -1,5 +1,7 @@
-I1 = rgb2gray(imread('/MATLAB Drive/Lab6_DSP/images/before.jpg')); % before
-I2 = rgb2gray(imread('/MATLAB Drive/Lab6_DSP/images/after.jpg'));  % after
+% Take two images of the same scene captured at different times and use image division (or subtraction) to detect the change between them.
+
+I1 = rgb2gray(imread('images/before.jpg')); % before
+I2 = rgb2gray(imread('images/after.jpg'));  % after
 
 I1 = imresize(I1,[256 256]);         % Resize
 I2 = imresize(I2,[256 256]);
