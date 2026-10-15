@@ -1,4 +1,6 @@
-I = rgb2gray(imread('/MATLAB Drive/Lab6_DSP/images/rgb1.jpg'));
+% Sobel, Prewitt and Median filter
+
+I = rgb2gray(imread('images/rgb1.jpg'));
 I = imresize(I,[256 256]);
 
 S = edge(I,'sobel');               % sobel filter
