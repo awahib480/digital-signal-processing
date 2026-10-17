@@ -1,3 +1,5 @@
+% Zeros and poles of the system
+
 % 1) H(z) = (z+1)/(z^2 - 0.9z + 0.81)
 num1 = [1 1];
 den1 = [1 -0.9 0.81];
