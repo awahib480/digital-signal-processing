@@ -1,3 +1,5 @@
+% z-transforms
+
 syms z n
 
 % a) x(n) = [5*2^n - 3^n]u(n)
