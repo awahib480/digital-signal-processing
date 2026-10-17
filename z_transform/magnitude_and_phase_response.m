@@ -1,3 +1,5 @@
+% Magnitude and Phase Response
+
 w = linspace(-20,20,200);
 
 % H1(z)
