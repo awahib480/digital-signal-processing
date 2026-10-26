@@ -1,3 +1,5 @@
+% DFT using fft(x, 32) and plotting magnitude and phase spectrum
+
 % signal of 32 samples
 N = 32;
 n = 0:N-1;
