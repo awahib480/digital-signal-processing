@@ -1,3 +1,5 @@
+% Verifying DTFT properties
+
 x = [1, 1, 1, 1, 0, 0, 0, 0];
 
 % Periodicity Property: X(e^j(w + 2*pi)) = X(e^j w)
