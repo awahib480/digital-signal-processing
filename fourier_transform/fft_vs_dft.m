@@ -1,3 +1,5 @@
+% Comparing DFT and FFT
+
 N_vals = [64, 128, 256, 512, 1024, 2048];
 t_dft = zeros(size(N_vals));
 t_fft = zeros(size(N_vals));
