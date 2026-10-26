@@ -1,3 +1,5 @@
+% FFT using DIT and DIF method
+
 x = [3, 0, 2, 9];
 N = length(x);
 
