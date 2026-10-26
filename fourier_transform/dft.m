@@ -1,3 +1,5 @@
+% 8-point DFT using equation of DFT
+
 x_a = [4, -3, 2, 0, -1, -2, 3, 1];
 N_a = length(x_a);
 X_dft_a = zeros(1, N_a);
