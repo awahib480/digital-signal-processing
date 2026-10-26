@@ -1,3 +1,5 @@
+% FFT using DIT and DIF method
+
 x = [9, 12, 6, 2];
 
 % 1. Built-in FFT
