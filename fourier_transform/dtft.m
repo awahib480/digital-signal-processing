@@ -1,3 +1,5 @@
+% Evaluating and plotting DTFT magnitude
+
 % Signal & DTFT grid
 x = [1, 1, 1, 1, 0, 0, 0, 0];
 N = length(x);
