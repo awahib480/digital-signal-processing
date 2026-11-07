@@ -1,3 +1,5 @@
+// 16-bit pipelined multiplier
+
 (* use_dsp = "yes" *)
 (* use_dsp48 = "yes" *)
 module multiplier_dsp_slice (
