@@ -1,3 +1,5 @@
+// 32-bit Pipelined Cascaded Multiplier (Multi-DSP Map Loop)
+
 module multiplier_dsp_cascade (
     input clk,
     input reset,
