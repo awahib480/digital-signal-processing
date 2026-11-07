@@ -1,3 +1,5 @@
+// Test bench for multiplier dsp cascade
+
 module tb_multiplier_dsp_cascade;
 
 reg clk, reset;
