@@ -1,3 +1,5 @@
+// 48-bit audio accumulator
+
 module audio_accumulator (
     input clk,
     input reset,
