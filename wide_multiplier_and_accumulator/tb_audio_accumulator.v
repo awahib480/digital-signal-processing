@@ -1,3 +1,5 @@
+// Test bench for audio accumulator
+
 module tb_audio_accumulator;
 
 reg clk, reset;
