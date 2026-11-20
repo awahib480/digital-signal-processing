@@ -1,3 +1,5 @@
+// real-time PDM-to-PWM audio pipeline
+
 module audio_loopback_top (
 input wire clk, // 100 MHz system clock
 input wire cpu_resetn, // CPU_RESET button (active LOW on the Nexys A7)
